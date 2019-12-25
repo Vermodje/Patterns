@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bdab081-4a42-4961-b7b3-30491a4b8507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/BlockChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/MoneyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/WebMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/WebWallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/YandexMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Cryptonator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/DollarsTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/PayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/RublesTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/TransferTechnology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/WesternUnion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,11 +40,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="947" />
-    <option name="width" value="979" />
-    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1V7khQEHpIUxcEPuNhg6Ep0RKA5" />
   <component name="PropertiesComponent">
@@ -74,26 +71,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.Main" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static_singleton.Main" />
-      <module name="SpringTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="static_singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,6 +112,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory.Main" />
       <module name="SpringTest" />
       <extension name="coverage">
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Root" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,8 +176,16 @@
       <workItem from="1577207739112" duration="4014000" />
       <workItem from="1577214595416" duration="760000" />
       <workItem from="1577254572568" duration="15589000" />
-      <workItem from="1577295513314" duration="1529000" />
+      <workItem from="1577295513314" duration="5116000" />
     </task>
+    <task id="LOCAL-00001" summary="25.12.2019">
+      <created>1577297153686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577297153686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +201,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="25.12.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.12.2019" />
   </component>
   <component name="masterDetails">
     <states>

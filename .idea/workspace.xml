@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bdab081-4a42-4961-b7b3-30491a4b8507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/AdminAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/CompositeAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/EconomyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/PremiumAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/BlueRayPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/MP3Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/MPEG4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/PlayerFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/ConnectionToDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/ProxyConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/composite/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/composite/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/User.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,20 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.Main" />
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prototype.Main" />
       <module name="SpringTest" />
@@ -145,6 +123,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.Main" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bridge.Main" />
       <module name="Patterns" />
       <extension name="coverage">
@@ -172,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +204,7 @@
       <workItem from="1577214595416" duration="760000" />
       <workItem from="1577254572568" duration="15589000" />
       <workItem from="1577295513314" duration="5116000" />
+      <workItem from="1577471981805" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="25.12.2019">
       <created>1577297153686</created>
@@ -235,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577382682685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="26.12.2019">
+      <created>1577386973256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577386973256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
